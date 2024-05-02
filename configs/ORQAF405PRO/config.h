@@ -30,6 +30,7 @@
 #define USE_GYRO_SPI_MPU6000
 #define USE_ACC
 #define USE_ACC_SPI_MPU6000
+#define USE_FLASH
 #define USE_FLASH_W25Q128FV
 #define USE_BARO
 #define USE_BARO_DPS310
@@ -67,22 +68,20 @@
 #define SPI2_SCK_PIN         PB13
 #define SPI2_SDI_PIN         PB14
 #define SPI2_SDO_PIN         PB15
+#define MAX7456_SPI_CS_PIN   PB12
 
 #define SPI3_SCK_PIN         PC10
 #define SPI3_SDI_PIN         PC11
 #define SPI3_SDO_PIN         PB5
+#define FLASH_CS_PIN         PB3
 
 #define ADC_VBAT_PIN         PC1
 #define ADC_CURR_PIN         PC3
 
-#define ESCSERIAL_PIN        PD2
-#define FLASH_CS_PIN         PB3
-#define MAX7456_SPI_CS_PIN   PB12
 #define GYRO_1_EXTI_PIN      PC4
 #define GYRO_1_CS_PIN        PA4
 #define USB_DETECT_PIN       PC5
 
-#define SPI2_TX_DMA_OPT     0
 #define ADC2_DMA_OPT        1
 
 #define TIMER_PIN_MAPPING \

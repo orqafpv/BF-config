@@ -1,0 +1,51 @@
+# dma
+dma ADC 1 8
+# ADC 1: DMA2 Stream 0 Request 9
+dma ADC 3 9
+# ADC 3: DMA2 Stream 1 Request 115
+dma TIMUP 1 0
+# TIMUP 1: DMA1 Stream 0 Request 15
+dma TIMUP 2 0
+# TIMUP 2: DMA1 Stream 0 Request 22
+dma TIMUP 3 2
+# TIMUP 3: DMA1 Stream 2 Request 27
+dma TIMUP 4 1
+# TIMUP 4: DMA1 Stream 1 Request 32
+dma TIMUP 5 0
+# TIMUP 5: DMA1 Stream 0 Request 59
+dma TIMUP 8 0
+# TIMUP 8: DMA1 Stream 0 Request 51
+dma pin A01 12
+# pin A01: DMA2 Stream 4 Request 56
+dma pin D12 13
+# pin D12: DMA2 Stream 5 Request 29
+dma pin D13 14
+# pin D13: DMA2 Stream 6 Request 30
+dma pin A00 15
+# pin A00: DMA2 Stream 7 Request 55
+
+# timer
+timer A01 AF2
+# pin A01: TIM5 CH2 (AF2)
+timer D12 AF2
+# pin D12: TIM4 CH1 (AF2)
+timer D13 AF2
+# pin D13: TIM4 CH2 (AF2)
+timer A00 AF2
+# pin A00: TIM5 CH1 (AF2)
+timer A02 AF2
+# pin A02: TIM5 CH3 (AF2)
+timer A03 AF2
+# pin A03: TIM5 CH4 (AF2)
+timer B01 AF2
+# pin B01: TIM3 CH4 (AF2)
+timer B00 AF2
+# pin B00: TIM3 CH3 (AF2)
+timer E05 AF4
+# pin E05: TIM15 CH1 (AF4)
+timer E06 AF4
+# pin E06: TIM15 CH2 (AF4)
+timer D14 AF2
+# pin D14: TIM4 CH3 (AF2)
+timer E09 AF1
+# pin E09: TIM1 CH1 (AF1)

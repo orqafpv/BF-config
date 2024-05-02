@@ -90,10 +90,12 @@
 #define USB_DETECT_PIN       PA10
 
 #define TIMER_PIN_MAPPING \
-    TIMER_PIN_MAP( 0, PC8, 1,  0) \
-    TIMER_PIN_MAP( 1, PC9, 1,  0) \
-    TIMER_PIN_MAP( 2, PA8, 1,  1) \
-    TIMER_PIN_MAP( 3, PA9, 1,  1) 
+    TIMER_PIN_MAP( 0, PC8,  1,  0) \
+    TIMER_PIN_MAP( 1, PC9,  1,  0) \
+    TIMER_PIN_MAP( 2, PA8,  1,  1) \
+    TIMER_PIN_MAP( 3, PA9,  1,  1) \
+    TIMER_PIN_MAP( 4, PA15, 1,  1) \
+    TIMER_PIN_MAP( 5, PA4,  1,  1)  
 
 #define DEFAULT_VOLTAGE_METER_SCALE 112
 #define DEFAULT_VOLTAGE_METER_DIVIDER 1
