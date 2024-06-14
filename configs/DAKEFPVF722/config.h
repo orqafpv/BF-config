@@ -29,6 +29,7 @@
 #define USE_ACC
 #define USE_ACC_SPI_MPU6000
 #define USE_ACC_SPI_MPU6500
+#define USE_ACC_SPI_ICM42688P
 #define USE_BARO
 #define USE_BARO_SPI_BMP280
 #define USE_BARO_SPI_DPS310
@@ -38,6 +39,7 @@
 #define USE_GYRO
 #define USE_GYRO_SPI_MPU6000
 #define USE_GYRO_SPI_MPU6500
+#define USE_GYRO_SPI_ICM42688P
 #define USE_MAX7456
 
 #define BEEPER_PIN           PC3
@@ -60,6 +62,8 @@
 #define UART4_RX_PIN         PA1
 #define UART5_RX_PIN         PD2
 #define UART6_RX_PIN         PC7
+#define I2C1_SCL_PIN         PB8
+#define I2C1_SDA_PIN         PB9
 #define LED0_PIN             PC14
 #define LED1_PIN             PC15
 #define SPI1_SCK_PIN         PA5
@@ -87,13 +91,13 @@
     TIMER_PIN_MAP( 1, PA1 , 2, -1) \
     TIMER_PIN_MAP( 2, PA9 , 1, -1) \
     TIMER_PIN_MAP( 3, PA10, 1, -1) \
-    TIMER_PIN_MAP( 4, PB0 , 2,  0) \
-    TIMER_PIN_MAP( 5, PB1 , 2,  0) \
+    TIMER_PIN_MAP( 4, PB0 , 1,  1) \
+    TIMER_PIN_MAP( 5, PB1 , 1,  0) \
     TIMER_PIN_MAP( 6, PB3 , 1,  0) \
     TIMER_PIN_MAP( 7, PB4 , 1, -1) \
     TIMER_PIN_MAP( 8, PB6 , 1,  0) \
     TIMER_PIN_MAP( 9, PB7 , 1,  0) \
-    TIMER_PIN_MAP(10, PC8 , 2,  0) \
+    TIMER_PIN_MAP(10, PC8 , 2,  1) \
     TIMER_PIN_MAP(11, PC9 , 2,  0)
 
 
@@ -104,6 +108,7 @@
 #define BARO_SPI_INSTANCE SPI2
 #define FLASH_SPI_INSTANCE SPI3
 #define MAX7456_SPI_INSTANCE SPI2
+#define MAG_I2C_INSTANCE (I2CDEV_1)
 
 #define DEFAULT_BLACKBOX_DEVICE     BLACKBOX_DEVICE_FLASH
 #define DEFAULT_CURRENT_METER_SOURCE CURRENT_METER_ADC
@@ -113,7 +118,6 @@
 #define PINIO1_CONFIG 129
 #define PINIO1_BOX 40
 
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW90_DEG
 #define GYRO_1_ALIGN_YAW 900

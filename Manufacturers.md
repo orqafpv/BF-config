@@ -20,11 +20,13 @@ This is the official list of manufacturer ids (`manufacturer_id` in the target c
 |BEFH|BETAFPV Hobby|https://betafpv.com/|
 |BKMN|Jason Blackman|https://github.com/blckmn|
 |BSTF|BEASTFPV|http://www.beastfpv.com/|
+|CADX|CADDX TECHNOLOGY (SHENZHEN) CO., LTD|https://caddxfpv.com/|
 |CCRC|Sunhey Now|https://sunheyccrc.aliexpress.com/|
 |CLRA|CLRACING LLC|https://cl-racing.myshopify.com/|
 |CYCL|CycloneRC|http://www.cyclone-rc.com|
 |DAFP|DarwinFPV|https://darwinfpv.com/|
 |DALR|DALRC TECHNOLOGY CO,.LIMITED|http://www.dalrc.cn/DALRC/|
+|DARK|Darkmatter|https://thedarkmatter.in/|
 |DERC|DemonRC|https://demonrc.eu/|
 |DFRA|Drone FPV Racer|https://www.drone-fpv-racer.com/|
 |DFRC|Shenzhen Jingfei Technology Co., LTD|https://dreamflyrc.com/|
@@ -50,6 +52,7 @@ This is the official list of manufacturer ids (`manufacturer_id` in the target c
 |GEFP|GetFPV LLC|https://www.getfpv.com/|
 |GEPR|GEPRC|https://geprc.com/|
 |GFPV|GE-FPV|http://www.ge-fpv.com/|
+[GMRC]Great Mountain RC|[https://github.com/shanggl|
 |HAMO|Happymodel|http://www.happymodel.cn/|
 |HARC|HAKRC|https://www.hakrc.com/|
 |HBRO|Holybro|http://www.holybro.com/index.html|
@@ -67,6 +70,7 @@ This is the official list of manufacturer ids (`manufacturer_id` in the target c
 |MARC|Mayhem RC|https://mayhemrc.com.au/|
 |MEPS|MepsKing|https://www.mepsking.com/|
 |MERA|MerakRC|http://www.merakrc.com/|
+|MICO|MicoAir Tech|https://micoair.com/|
 |MOLA|MotoLab|https://github.com/MotoLab|
 |MOQU|Modd Quad|https://www.moddquad.com/|
 |MTKS|Matek Systems|http://www.mateksys.com/|
@@ -91,6 +95,7 @@ This is the official list of manufacturer ids (`manufacturer_id` in the target c
 |SPCM|Guangzhou shi parker electronic technology Co., Ltd|https://www.spcmaker.com/|
 |SPDX|Spedix Co, Ltd.|http://www.spedix-rc.com/|
 |SPRO|Seriously Pro Racing (SP Racing)|http://seriouslypro.com/|
+|SQRE|SEQURE|https://sequremall.com|
 |STMI|ST Microelectronics (MCU evaluation boards)|https://www.st.com/content/st_com/en.html|
 |TACO|Taco RC|https://taco-rc.com/|
 |TCMM|Shenzhen Xinmumu Science and Technology Co (TCMM)|http://www.tcmm-rc.cn/|

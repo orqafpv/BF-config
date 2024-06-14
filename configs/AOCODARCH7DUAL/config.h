@@ -46,10 +46,10 @@
 #define MOTOR2_PIN           PB1
 #define MOTOR3_PIN           PA0
 #define MOTOR4_PIN           PA1
-#define MOTOR5_PIN           PA2
-#define MOTOR6_PIN           PA3
-#define MOTOR7_PIN           PD12
-#define MOTOR8_PIN           PD13
+#define MOTOR5_PIN           PD13
+#define MOTOR6_PIN           PD12
+#define MOTOR7_PIN           PA3
+#define MOTOR8_PIN           PA2
 #define SERVO1_PIN           PE5
 #define SERVO2_PIN           PE6
 #define RX_PPM_PIN           PA10
@@ -139,7 +139,6 @@
 #define PINIO1_BOX 39
 #define PINIO2_BOX 40
 #define FLASH_SPI_INSTANCE SPI3
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW90_DEG
 #define GYRO_1_ALIGN_YAW 900

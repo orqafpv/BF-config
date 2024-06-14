@@ -121,11 +121,17 @@
 #define USE_MAG_HMC5883
 #define USE_MAG_QMC5883
 #define USE_FLASH
+#define USE_FLASH_W25Q128FV
 #define USE_FLASH_W25N01G
 #define USE_CAMERA_CONTROL
 #define USE_MAX7456
 #define USE_SDCARD
 #define USE_TRANSPONDER
+
+// The target has a specific set of pads for the LED strip.
+#ifndef USE_LED_STRIP
+#define USE_LED_STRIP
+#endif
 
 #define BEEPER_PIN           PD7
 #define MOTOR1_PIN           PA0
@@ -235,7 +241,6 @@
 #define DEFAULT_BLACKBOX_DEVICE     BLACKBOX_DEVICE_FLASH
 #define DEFAULT_GYRO_TO_USE GYRO_CONFIG_USE_GYRO_BOTH
 
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI3
 #define GYRO_1_ALIGN CW180_DEG
 #define GYRO_2_SPI_INSTANCE SPI2
